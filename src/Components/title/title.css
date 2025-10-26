@@ -1,0 +1,17 @@
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+.title h1{
+    color: var(--mainColor);
+    
+
+}
+.title hr{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    border: none;
+    border-radius: 50%;
+    background:var(--mainColor);
+}

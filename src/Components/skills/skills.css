@@ -1,0 +1,56 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-top: 50px;
+}
+.skillImg{
+   
+
+}
+.skillImg img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.aboutLang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameLogo{
+    display: flex;
+    align-items: center;
+}
+
+.nameSkill{
+    font-weight: 700;
+}
+.percentage{
+    font-weight: 700;
+    color: var(--mainColor);
+}
+progress{
+    width: 500px;
+    height: 20px;
+    -webkit-appearance: none;
+
+}
+progress::-webkit-progress-value{
+    background: var(--mainColor);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

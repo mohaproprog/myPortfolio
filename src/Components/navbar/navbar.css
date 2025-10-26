@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px 50px;
+    
+}
+.logo img{
+    width: 100px;
+}
+
+.navList{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 2px 4px var(--mainColor);
+}
+.navList li{
+    margin-right: 50px;
+}
+.navList li:hover{
+    color: var(--mainColor);
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+}
+.navRight i{
+    color: var(--Textcolor);
+    margin-right: 20px;
+}
+.navbar i:hover{
+    color: var(--mainColor);
+}

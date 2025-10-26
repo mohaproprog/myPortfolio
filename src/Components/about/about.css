@@ -1,0 +1,52 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.about .aboutImg{
+    margin: 20px;
+}
+.aboutImg img{
+    width: 300px;
+    border-radius: 50px;
+    background: var(--mainColor);
+    padding-left: 20px;
+    animation-name: aboutImage;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite ;
+}
+
+.aboutText{
+    width: 600px;
+    font-size: 20px;
+}
+button{
+    margin: 20px 10px;
+}
+button i{
+    color: var(--textColor);
+}
+.cv{
+    color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+    background: none;
+}
+
+
+@keyframes aboutImage {
+    0%{
+        background: var(--mainColor);
+
+    }
+    50%{
+        background: #121212;
+
+    }
+    100%{
+        background: var(--mainColor);
+
+    }
+    
+}

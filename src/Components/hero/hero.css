@@ -13,7 +13,7 @@
     border-bottom-left-radius: 20%;
     animation-name: heroImage;
     animation-timing-function: ease-in-out;
-    animation-duration: 30s;
+    animation-duration: 100s;
     animation-iteration-count: infinite;
 
 }
@@ -37,19 +37,13 @@ p span{
     font-size: 30px;
 }
 
-.hero .shadow{
-    background:var(--mainColor);
-    width: 600px;
-    height: 400px;
+.hero .codeShadow{
+    font-size: 400px;
     position: absolute;
-    top: 200px;
     left: -200px;
-    border-radius: 50%;
-    border: 10px solid #0000;
-    filter: blur(100px);
-    z-index: -10;
-    opacity: 0.3;
-    
+    top: 200px;
+    z-index: -100;
+    filter: blur(20px);
 }
 
 

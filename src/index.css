@@ -43,3 +43,7 @@ button:hover{
     color: var(--mainColor);
     background: var(--Textcolor);
 }
+
+img:hover{
+    transform: scale(1.1);
+}

@@ -4,6 +4,7 @@
     align-items: center;
     gap: 4%;
     margin-top: 50px;
+    position: relative;
 }
 .skillImg{
    
@@ -53,4 +54,15 @@ progress::-webkit-progress-value{
     background: var(--mainColor);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+
+.skillIcon{
+    position: absolute;
+    top: -100px;
+    left: -400px;
+    font-size: 500px;
+    transform: rotate(120deg);
+    filter: blur(10px);
+    z-index: -100;
 }

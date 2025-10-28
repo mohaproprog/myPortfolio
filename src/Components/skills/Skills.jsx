@@ -4,6 +4,7 @@ import skillImg from '../assets/skillsImg.jpg'
 function Skills() {
   return (
     <div className='skills'>
+        <i class="fa-solid fa-square-binary skillIcon"></i>
         <div className="languages">
             <div className="language">
                 <div className="aboutLang">

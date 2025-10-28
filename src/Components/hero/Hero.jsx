@@ -5,7 +5,7 @@ import heroImage from '../assets/heroImage.png'
 function Hero() {
   return (
     <div className='hero'>
-      <div className="shadow"></div>
+      <i class="fa-solid fa-code codeShadow"></i>
       <div className="heroText">
         <p className="name">Hi, i'm <span>Mohamed Elmi</span></p>
         <h2>i'm <span>FrontEnd </span>developer <br />Based in bristol</h2>

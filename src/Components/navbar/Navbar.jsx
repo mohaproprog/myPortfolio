@@ -19,7 +19,7 @@ function Navbar() {
         
         <div className="navRight">
             <div className="lightMode">
-            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
             </div>
             <button>Contact</button>
         </div>

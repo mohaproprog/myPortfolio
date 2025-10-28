@@ -1,0 +1,31 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0,400px));
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.services .service{
+    border: 2px dotted var(--mainColor);
+    padding: 20px;
+    border-radius: 10px;
+    grid-area: 50%;
+}
+
+.service i{
+    background: var(--mainColor);
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.service i:hover{
+    background: #fff;
+    color: var(--mainColor);
+    border: 1px solid #121212;
+}

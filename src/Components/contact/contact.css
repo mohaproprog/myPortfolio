@@ -1,0 +1,63 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    gap: 2%;
+}
+.contactText{
+    flex-basis: 30%;
+    background: var(--mainColor);
+    border-radius: 30px;
+    padding: 20px;
+}
+.contactText h4{
+    margin-bottom: 30px;
+}
+
+.contactInfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact p{
+    color: #ffff;
+    font-size: 18px;
+}
+.contactInfo i{
+    color: #121212;
+    margin-right: 10px;
+    
+}
+
+.contactInfo i:hover{
+    color: #fff;
+}
+
+
+
+
+
+.contactForm{
+    flex-basis: 40%;
+}
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+}
+form input,textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--mainColor);
+    max-width: 390px;
+}
+
+form button{
+    width: 100px;
+    margin-top: -2px;
+}
+form textarea{
+    height: 200px;
+}

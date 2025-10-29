@@ -10,11 +10,13 @@ function Navbar() {
   function menuHandle(){
     if(!navListToggle){
       navListRef.current.style.right = 0;
-      btnRef.current.style.right = "15px";
+      navListRef.current.style.left = "100px";
+      btnRef.current.style.right = "120px";
       setNavlistToggle(true)
     }
     else{
       navListRef.current.style.right = "-500px";
+      navListRef.current.style.left = "";
       btnRef.current.style.right = "-500px";
       setNavlistToggle(false)
     }

@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css';
 import Navbar from './Components/navbar/Navbar.jsx';
 import Hero from './Components/hero/Hero.jsx';
 import Title from './Components/title/Title.jsx';
@@ -11,7 +12,7 @@ import Footer from './Components/footer/Footer.jsx';
 
 function App() {
   return (
-    <div>
+    <div className='darkMode'>
         <Navbar/>
         <Hero/>
         <Title title="About Me" subtitle="Passionate creator turning ideas into digital experiences"/>

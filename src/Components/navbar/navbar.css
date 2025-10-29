@@ -3,10 +3,21 @@
     justify-content: space-between;
     align-items: center;
     padding:  10px 50px;
+    position: relative;
     
 }
 .logo img{
     width: 100px;
+    margin-left: 10px;
+}
+.listAndMode{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navListBtn{
+    display: flex;
+    justify-content: space-between;
 }
 
 .navList{
@@ -27,10 +38,85 @@
     display: flex;
     align-items: center;
 }
-.navRight i{
+.navRight .fa-moon{
     color: var(--Textcolor);
     margin-right: 20px;
 }
 .navbar i:hover{
     color: var(--mainColor);
+}
+.menu{
+    color: var(--Textcolor);
+    font-size: 30px;
+    display: none;
+}
+.menu:hover{
+    background: #000;
+}
+
+
+/* -----------making responsive------------ */
+
+@media(max-width:959px){
+    .navList{
+       flex-direction: column;
+       position: fixed;
+       top: 0;
+       right: -500px;
+       bottom: 0;
+       left:50;
+       background: var(--mainColor);
+       border-radius: 0;
+       padding-top: 50px;
+    }
+    .navList li{
+        margin-top: 20px;
+    }
+    .navList li:hover{
+        color: #ffff;
+    }
+
+    .menu{
+        display: block;
+        z-index: 1;
+
+    }
+    .menu2{
+        position: fixed;
+        right: 20px;
+        z-index: 1;
+        background: #000;
+        
+    }
+}
+
+
+@media(max-width:745px){
+    .menu{
+        font-size: 20px;
+    }
+    .navRight button i{
+        display: none;
+    }
+}
+@media(max-width:718px){
+    .navRight button{
+        position: fixed;
+        top: 500px;
+        right: -500px;
+        border: 2px solid #121212;
+        font-size: 12px;
+    }
+    .navRight{
+        margin-right: -90px;
+    }
+}
+@media(max-width:651px){
+    .navRight{
+        margin: 0;
+    }
+    .logo{
+        width: 60px;
+        margin-left: -40px;
+    }
 }

@@ -4,12 +4,12 @@ import skillImg from '../assets/skillsImg.jpg'
 function Skills() {
   return (
     <div className='skills'>
-        <i class="fa-solid fa-square-binary skillIcon"></i>
+        <i className="fa-solid fa-square-binary skillIcon"></i>
         <div className="languages">
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-html5"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-html5"></i></div>
                 <div className="nameSkill">HTML</div>
                     </div>
                 <div className="percentage">90%</div>
@@ -21,7 +21,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-css3"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-css3"></i></div>
                 <div className="nameSkill">CSS</div>
                     </div>
                 <div className="percentage">85%</div>
@@ -33,7 +33,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-solid fa-wind"></i>
+                        <div className="logoSkill"><i className="fa-solid fa-wind"></i>
 </div>
                 <div className="nameSkill">TAILWIND CSS</div>
                     </div>
@@ -46,7 +46,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-git"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-git"></i></div>
                 <div className="nameSkill">GIT</div>
                     </div>
                 <div className="percentage">60%</div>
@@ -58,7 +58,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-js"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-js"></i></div>
                 <div className="nameSkill">JAVASCRIPT</div>
                     </div>
                 <div className="percentage">82%</div>
@@ -70,7 +70,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-react"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-react"></i></div>
                 <div className="nameSkill">REACT JS</div>
                     </div>
                 <div className="percentage">78%</div>
@@ -82,7 +82,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-figma"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-figma"></i></div>
                 <div className="nameSkill">FIGMA</div>
                     </div>
                 <div className="percentage">70%</div>
@@ -94,7 +94,7 @@ function Skills() {
             <div className="language">
                 <div className="aboutLang">
                     <div className="nameLogo">
-                        <div className="logoSkill"><i class="fa-brands fa-node"></i></div>
+                        <div className="logoSkill"><i className="fa-brands fa-node"></i></div>
                 <div className="nameSkill">NODE JS</div>
                     </div>
                 <div className="percentage">60%</div>

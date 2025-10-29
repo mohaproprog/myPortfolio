@@ -7,7 +7,8 @@
     position: relative;
 }
 .skillImg{
-   
+    width: 500px;
+    margin-right: 20px;
 
 }
 .skillImg img{
@@ -18,6 +19,8 @@
 .languages{
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    width: 500px;
     
     
 }
@@ -45,7 +48,7 @@
     color: var(--mainColor);
 }
 progress{
-    width: 500px;
+    width: 100%;
     height: 20px;
     -webkit-appearance: none;
 
@@ -65,4 +68,87 @@ progress::-webkit-progress-value{
     transform: rotate(120deg);
     filter: blur(10px);
     z-index: -100;
+}
+
+@media (max-width:1453px){
+    .skillIcon{
+        display: none;
+    }
+    
+}
+@media (max-width:1089px){
+    .language{
+        width: 400px;
+    }
+   
+}
+@media (max-width:1089px){
+    .skillImg img{
+        margin-right: 20px;
+    }
+}
+@media (max-width:1089px){
+    .languages .language{
+        width: 400px;
+    }
+}
+
+@media(max-width:987px){
+    .skillImg img{
+        width: 100%;
+    }
+}
+@media(max-width:909px){
+    .language progress{
+        height: 10px;
+    }
+    .language{
+        margin-bottom: 5px;
+        width: 200px;
+    }
+}
+@media(max-width:788px){
+    .skills{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+@media(max-width:571px){
+    .skillImg{
+        width: 100%;
+    }
+    .skillImg img{
+        width: 90%;
+        margin: 0px 20px;
+    }
+    .language{
+        margin-left: 40px;
+    }
+}
+@media(max-width:418px){
+    .language progress{
+        margin: auto;
+        width: 300px;
+        margin-left: 60px;
+    }
+    .nameLogo{
+        margin-left: 40px;
+        
+    }
+    .percentage{
+        margin-right: 40px;
+    }
+}
+@media(max-width:336px){
+    .language progress{
+        width: 250px;
+        margin-left: 90px;
+        
+    }
+    .percentage{
+        margin-right: 80px;
+    }
+    .nameLogo{
+        margin-left: 100px;
+    }
 }

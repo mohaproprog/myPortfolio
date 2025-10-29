@@ -8,10 +8,20 @@
 
 }
 .title hr{
-    width: 150px;
+    max-width: 150px;
     height: 5px;
     margin: auto;
     border: none;
     border-radius: 50%;
     background:var(--mainColor);
+}
+
+@media (max-width:503px){
+    .title{
+        margin:100px auto 0 50px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+
 }

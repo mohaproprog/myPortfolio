@@ -44,6 +44,25 @@ button:hover{
     background: var(--Textcolor);
 }
 
-img:hover{
-    transform: scale(1.1);
+
+
+@media(max-width:1000px){
+    button{
+        padding: 5px 8px;
+    }
+}
+@media(max-width:864px){
+    .container{
+        margin-top: 320px;
+    }
+}
+@media(max-width:405px){
+    .container{
+        margin-top: 360px;
+    }
+}
+@media(max-width:360px){
+    .container{
+        margin-top: 400px;
+    }
 }

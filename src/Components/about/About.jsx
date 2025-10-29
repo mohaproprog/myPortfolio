@@ -14,8 +14,8 @@ Skilled in React.js, JavaScript, HTML, CSS, and Tailwind for building modern web
 I also work with Node.js to bring dynamic functionality to the backend.
 Design matters to me—Figma helps me craft intuitive and visually appealing layouts.
 Constantly learning and improving to turn ideas into interactive digital products</p>
-<button className='cv'>Download Cv <i class="fa-solid fa-chevron-down"></i></button>
-<button>Contact me <i class="fa-solid fa-reply"></i></button>
+<button className='cv'>Download Cv <i className="fa-solid fa-chevron-down"></i></button>
+<button>Contact me <i className="fa-solid fa-reply"></i></button>
         </div>
     </div>
   )

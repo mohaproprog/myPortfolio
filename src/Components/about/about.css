@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 5%;
+    padding: 20px;
 }
 .about .aboutImg{
     margin: 20px;
@@ -49,4 +50,31 @@ button i{
 
     }
     
+}
+
+@media (max-width:738px){
+    .about{
+        flex-direction: column;
+    }
+    .about .aboutText{
+        text-align: center;
+        max-width: 90%;
+        font-size: 16px;
+    }
+    .about button{
+        padding: 5px 7px;
+    }
+    .about button i{
+        display: none;
+
+    }
+}
+@media (max-width:417px){
+    .about .aboutText{
+        font-size: 14px;
+
+    }
+    .aboutImg img{
+        width:200px;
+    }
 }

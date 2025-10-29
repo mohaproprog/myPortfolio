@@ -61,3 +61,14 @@ form button{
 form textarea{
     height: 200px;
 }
+
+@media (max-width:666px){
+    .contact{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contactForm{
+        width: 90%;
+        margin: auto;
+    }
+}

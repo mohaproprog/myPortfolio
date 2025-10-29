@@ -22,3 +22,12 @@
 .footer .socialMedia i:hover{
     color: #ffff;
 }
+
+@media(max-width:600px){
+    .footer p{
+        font-size: 13px;
+    }
+    .footer h3{
+        font-size: 20px;
+    }
+}

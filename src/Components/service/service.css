@@ -29,3 +29,9 @@
     color: var(--mainColor);
     border: 1px solid #121212;
 }
+
+@media (max-width:866px){
+    /* .service {
+        margin-bottom: 100px;
+    } */
+}

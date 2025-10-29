@@ -7,10 +7,10 @@ function Footer() {
     <footer className='footer'>
         <h3>Mohamed Elmi</h3>
         <div className="socialMedia">
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-github"></i>
 
 
         </div>

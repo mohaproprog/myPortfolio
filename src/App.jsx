@@ -16,15 +16,19 @@ function App() {
         <Hero/>
         <Title title="About Me" subtitle="Passionate creator turning ideas into digital experiences"/>
         <About/>
-        <Title title="Skills" subtitle="A blend of creativity, clean code, and modern web technologies"/>
+         <Title title="Skills" subtitle="A blend of creativity, clean code, and modern web technologies"/>
         <Skills/>
         <Title title="Service" subtitle="We offer modern, responsive, and user-focused web solutions"/>
         <Service/>
-        <Title title="My Projects" subtitle="Showcasing my work in modern frontend development"/>
+        <div className="container">
+          <Title title="My Projects" subtitle="Showcasing my work in modern frontend development"/>
         <Project/>
         <Title title="Contact" subtitle="I’d love to hear from you—get in touch!"/>
         <Contact/>
         <Footer/>
+        </div>
+
+        
         
 
 

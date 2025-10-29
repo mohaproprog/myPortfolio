@@ -6,15 +6,15 @@ function Contact() {
         <div className="contactText">
             <h4>Let’s get in touch. I’m open to new opportunities, collaborations, or just sharing knowledge—send a message and let’s start a conversation</h4>
             <div className="contactInfo">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
                 <p>mohaanaselmi@gmail.com</p>
             </div>
             <div className="contactInfo">
-                <i class="fa-solid fa-phone-volume"></i>
+                <i className="fa-solid fa-phone-volume"></i>
                 <p>447442386195</p>
             </div>
             <div className="contactInfo">
-                <i class="fa-solid fa-location-dot"></i>
+                <i className="fa-solid fa-location-dot"></i>
                 <p>United Kingdom, Avon, Bristol</p>
             </div>
 

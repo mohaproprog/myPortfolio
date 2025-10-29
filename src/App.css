@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     color: var(--Textcolor);
+    overflow-x: hidden;
 }
 .darkMode{
     --Textcolor: #ffff;

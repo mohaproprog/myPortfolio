@@ -12,7 +12,7 @@ import Footer from './Components/footer/Footer.jsx';
 
 function App() {
   return (
-    <div className='darkMode'>
+    <div>
         <Navbar/>
         <Hero/>
         <Title title="About Me" subtitle="Passionate creator turning ideas into digital experiences"/>

@@ -1,10 +1,12 @@
 import './footer.css';
+import { Link } from 'react-scroll';
 
 function Footer() {
     const date = new Date().getFullYear();
 
   return (
     <footer className='footer'>
+       <li><Link to="navbar"   smooth={true} duration={500} spy={true} offset={-80}><i class="fa-solid fa-up-long"></i></Link></li>
         <h3>Mohamed Elmi</h3>
         <div className="socialMedia">
             <a href="https://x.com/mo_progr?t=w_t7x0VGPg0fIlONCQbBOA&s=09" target='_blank' ><i className="fa-brands fa-x-twitter"></i></a>

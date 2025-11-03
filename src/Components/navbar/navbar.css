@@ -38,7 +38,16 @@
     display: flex;
     align-items: center;
 }
-.navRight .fa-moon{
+.navRight button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navRight button.svg{
+    width: 10px;
+}
+.navRight .fa-moon, .fa-sun{
     color: var(--Textcolor);
     margin-right: 20px;
 }
@@ -115,8 +124,7 @@
     .navRight{
         margin: 0;
     }
-    .logo{
-        width: 60px;
-        margin-left: -40px;
+    .logo img{
+        width: 90px;
     }
 }

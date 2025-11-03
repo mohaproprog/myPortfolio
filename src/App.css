@@ -52,7 +52,7 @@ button:hover{
         padding: 5px 8px;
     }
 }
-@media(max-width:864px){
+/* @media(max-width:864px){
     .container{
         margin-top: 320px;
     }
@@ -66,4 +66,4 @@ button:hover{
     .container{
         margin-top: 400px;
     }
-}
+} */

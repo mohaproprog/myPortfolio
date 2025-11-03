@@ -1,28 +1,46 @@
+/* Container: 3 columns by default, then 2 / 1 on smaller screens */
 .services{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0,400px));
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+    grid-template-columns: repeat(3, minmax(240px, 1fr)); /* 3 columns */
+    gap: 20px;
+    justify-items: stretch;
+    align-items: start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: -30px;
 }
+
+/* Card: use box-sizing, vertical layout and allow natural height */
 .services .service{
     border: 2px dotted var(--mainColor);
     padding: 20px;
     border-radius: 10px;
-    grid-area: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: var(--cardBg, transparent);
+    /* let cards expand to fit content */
+    min-height: 0;
 }
 
+/* Icon */
 .service i{
     background: var(--mainColor);
     color: var(--textColor);
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    padding: 0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    flex: 0 0 auto;
 }
 .service i:hover{
     background: #fff;
@@ -30,8 +48,58 @@
     border: 1px solid #121212;
 }
 
-@media (max-width:866px){
-    /* .service {
-        margin-bottom: 100px;
-    } */
+/* Title and description spacing */
+.service h3{
+    margin: 0 0 8px 0;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    max-width: 100%;
+    display: block;
+    white-space: normal;       /* allow wrapping */
+    overflow-wrap: anywhere;  /* break long words/URLs */
+    word-break: break-word;
+    hyphens: auto;
+    overflow-y: hidden;
+}
+.service p{
+    margin: 0;
+    color: var(--textColorSecondary, #666);
+    line-height: 1.4;
+    margin-top: 8px;
+    /* show full text */
+    overflow: visible;
+    max-height: none;
+    /* allow long words to wrap so layout doesn't break */
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Buttons inside cards: avoid causing overflow, allow wrapping */
+.service button{
+    margin-top: 12px;
+    align-self: flex-start;
+    white-space: normal; /* allow text to wrap */
+    overflow: visible;
+    max-width: 100%;
+}
+
+/* Responsive: 2 columns under 1000px, 1 column under 600px */
+@media (max-width: 1000px){
+    .services{
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+        gap: 16px;
+    }
+}
+
+@media (max-width: 600px){
+    .services{
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 0px 20px;
+    }
+    .service i{
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
 }

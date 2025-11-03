@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
+import { Link, Element } from 'react-scroll';
 import './navbar.css'
 import LogoDark from '../assets/logoDark.png';
 import LogoLight from '../assets/logoLight.png';
@@ -54,11 +55,11 @@ function Navbar() {
         </div>
 
         <ul className="navList" ref={navListRef}>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><Link to="navbar"   smooth={true} duration={500} spy={true} offset={-80}>Home</Link></li>
+            <li><Link to="about"  smooth={true} duration={500} spy={true} offset={-150}>About</Link></li>
+            <li><Link to="skills" smooth={true} duration={500} spy={true} offset={-150}>Skills</Link></li>
+            <li><Link to="project" smooth={true} duration={500} spy={true} offset={-150}>Project</Link></li>
+            <li><Link to="contact" smooth={true} duration={500} spy={true} offset={-100}>Contact</Link></li>
         </ul>
 
         <div className="navRight">

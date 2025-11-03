@@ -5,6 +5,7 @@
     gap: 4%;
     margin-top: 50px;
     position: relative;
+    z-index: -10;
 }
 .skillImg{
     width: 500px;

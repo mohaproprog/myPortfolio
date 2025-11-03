@@ -1,8 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './navbar.css'
 import LogoDark from '../assets/logoDark.png';
-import LogoLight from '../assets/Logolight.png';
-import svg from '../assets/DownloadSvg.svg';
+import LogoLight from '../assets/logolight.png';
 
 function Navbar() {
   const [navListToggle, setNavlistToggle] = useState(false);

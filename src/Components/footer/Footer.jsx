@@ -7,10 +7,12 @@ function Footer() {
     <footer className='footer'>
         <h3>Mohamed Elmi</h3>
         <div className="socialMedia">
-            <i className="fa-brands fa-x-twitter"></i>
-            <i className="fa-brands fa-linkedin"></i>
-            <i className="fa-brands fa-whatsapp"></i>
-            <i className="fa-brands fa-github"></i>
+            <a href="https://x.com/mo_progr?t=w_t7x0VGPg0fIlONCQbBOA&s=09" target='_blank' ><i className="fa-brands fa-x-twitter"></i></a>
+             <a href="https://www.linkedin.com/in/mohamed-elmi-b1a7722a9" target='_blank' ><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/qr/MO2LRVFJ4LSKA1" target='_blank' ><i className="fa-brands fa-whatsapp"></i></a>
+        
+            <a href="https://x.com/mo_progr?t=w_t7x0VGPg0fIlONCQbBOA&s=09" target='_blank' ><i className="fa-brands fa-x-twitter"></i></a>
+        
 
 
         </div>

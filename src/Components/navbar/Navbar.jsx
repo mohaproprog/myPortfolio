@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import './navbar.css'
 import LogoDark from '../assets/logoDark.png';
 import LogoLight from '../assets/logoLight.png';
+import fakeCv from '../assets/fakeCv.pdf';
 
 function Navbar() {
   const [navListToggle, setNavlistToggle] = useState(false);
@@ -20,7 +21,7 @@ function Navbar() {
     if(!navListToggle){
       navListRef.current.style.right = 0;
       navListRef.current.style.left = "100px";
-      btnRef.current.style.right = "120px";
+      btnRef.current.style.right = "150px";
       setNavlistToggle(true)
     }
     else{
@@ -67,7 +68,7 @@ function Navbar() {
                 : <i className="fa-solid fa-moon" onClick={handleDarkMode}></i>
               }
             </div>
-            <button ref={btnRef}>Download Cv <i class="fa-solid fa-circle-down"></i></button>
+            <button ref={btnRef}><a href={fakeCv} download>Download Cv</a> <i class="fa-solid fa-circle-down"></i></button>
             {navListToggle? <i  className=" fa-solid fa-xmark menu2" onClick={menuHandle}></i>:  <i className="fa-solid fa-bars menu"onClick={menuHandle}></i> }
         </div>
     </nav>

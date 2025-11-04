@@ -17,7 +17,10 @@ function Hero() {
         
         
       </div>
+      <div className="heroImg">
+        
       <img src={heroImage} alt="" />
+      </div>
     </div>
   )
 }

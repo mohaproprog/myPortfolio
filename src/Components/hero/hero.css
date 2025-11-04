@@ -8,14 +8,17 @@
 .hero img{
     width: 380px;
     background: var(--mainColor);
-    border-top-left-radius: 10%;
+    border-radius: 400px;
+    border-top-left-radius: 20px;
+    border: 2px solid var(--Textcolor);
+    /* border-top-left-radius: 10%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 90%;
     border-bottom-left-radius: 20%;
     animation-name: heroImage;
     animation-timing-function: ease-in-out;
     animation-duration: 100s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 
 }
 
@@ -50,106 +53,6 @@ p span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* animation for the image */
-@keyframes heroImage {
-    0%{
-        border-top-left-radius: 10%;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 90%;
-        border-bottom-left-radius: 20%;
-
-    }
-    10%{
-        border-top-left-radius: 20%;
-        border-top-right-radius: 80%;
-        border-bottom-right-radius: 60%;
-        border-bottom-left-radius: 0%;
-
-    }
-    20%{
-        border-top-left-radius: 40%;
-        border-top-right-radius: 70%;
-        border-bottom-right-radius: 20%;
-        border-bottom-left-radius: 40%;
-
-    }
-    30%{
-        border-top-left-radius: 40%;
-        border-top-right-radius: 0%;
-        border-bottom-right-radius: 40%;
-        border-bottom-left-radius: 30%;
-    
-
-    }
-    40%{
-        border-top-left-radius: 10%;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 90%;
-        border-bottom-left-radius: 20%;
-
-    }
-    50%{
-        border-top-left-radius: 10%;
-        border-top-right-radius: 40%;
-        border-bottom-right-radius: 80%;
-        border-bottom-left-radius: 20%;
-
-    }
-    60%{
-        border-top-left-radius: 20%;
-        border-top-right-radius: 30%;
-        border-bottom-right-radius: 100%;
-        border-bottom-left-radius: 40%;
-
-    }
-    70%{
-        border-top-left-radius: 40%;
-        border-top-right-radius: 0%;
-        border-bottom-right-radius: 40%;
-        border-bottom-left-radius: 30%;
-    
-
-    }
-    80%{
-        border-top-left-radius: 40%;
-        border-top-right-radius: 0%;
-        border-bottom-right-radius: 40%;
-        border-bottom-left-radius: 30%;
-    
-
-    }
-    90%{
-        border-top-left-radius: 40%;
-        border-top-right-radius: 0%;
-        border-bottom-right-radius: 40%;
-        border-bottom-left-radius: 30%;
-    
-
-    }
-    100%{
-        border-top-left-radius: 10%;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 90%;
-        border-bottom-left-radius: 20%;
-        
-
-    }
-    
-}
-
-
-
 /* ----------making responsive--------- */
 @media(max-width:1479px){
     .hero .codeShadow{
@@ -178,10 +81,14 @@ p span{
         font-size: 30px;
         
     }
+    .hero img{
+        margin-right: 100px;
+        max-width: 300px;
+    }
 }
 @media (max-width:714px){
     .hero img{
-        margin-right: -100px;
+        margin-right: 100px;
         max-width: 300px;
     }
 }
